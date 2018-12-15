@@ -25,12 +25,16 @@ references:
 	 https://olc.worldbank.org/sites/default/files/1.pdf
 	 https://www.kaggle.com/c/costa-rican-household-poverty-prediction
 	 https://chrisalbon.com/machine_learning/feature_selection/drop_highly_correlated_features/
+	 https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html -> plot confusion matrix
+	 https://www.kaggle.com/willkoehrsen/a-complete-introduction-and-walkthrough -> splitting the columns to 
+		'household' related ones vs. 'individual ones'
 	 
 Methods to improve:
 	feature engineering
+	taking most important features by each algorithm
 	
 	 
-Execute kernel:
+Execute kernel using anaconda prompt:
 		c:\dev\git>jupyter notebook --notebook-dir=C:\Users\Pinif\Documents\Udacity\Capstone
 		
 MISC:
@@ -40,13 +44,30 @@ MISC:
 		
 README contents
 		
+		Pre-requisites:
+			from Anaconda prompt:
+				pip install xgboost 
+				pip install lightgbm
 		How to open the Jupyter notebook:
 			place the train.csv and iPython notebook file in the same directory = <dir>
 			start jupyter notebook with --notebook-dir=<dir>
 			Python version: 3.6.4
 			Jupyter notebook version: 5.4.0
 			
+
++ Gaussian Naïve Bayes 
++ Decision Trees 
++ AdaBoost 
++ K-Nearest Neighbors 
++ SVC 
++ Random Forrest
 			
+xgboost
+LightGBM
+
+Just make sure your final report also provides additional summary stats (e.g., feature means/std devs, etc) and try to include some samples of the data directly in your writeup.
+
+although the final writeup should also show the actual equations used to calculate the scores
 
 			
 import matplotlib.pyplot as pl
