@@ -1,0 +1,31 @@
+README
+------
+
+capstone.zip file contents
+--------------------------
+
+proposal.pdf   -> the proposal submmitted for this project
+report.pdf	   -> the project report
+README		   -> this file
+train.csv	   -> the input dataset from Kaggle
+Capstone.ipynb -> the Jupyter notebook used for this project
+Capstone.html  -> the HTML output of the Jupyter notebook
+
+Pre-requisites for running the Jupyter notebook
+-----------------------------------------------
+
+1. Install anaconda
+2. From Anaconda prompt:
+		pip install xgboost (If not installed already)
+		pip install lightgbm (If not installed already)
+		
+How to run the Jupyter notebook
+-------------------------------
+
+1. Put the train.csv and iPython notebook file (Capstone.ipynb) in the same directory = <dir>
+2. From anaconda prompt: start jupyter notebook with --notebook-dir=<dir>
+
+   For example, assuming you placed the 2 files under C:\Documents\Udacity\Capstone, 
+   run the following from anaconda prompt:
+   
+   jupyter notebook --notebook-dir=C:\Documents\Udacity\Capstone
